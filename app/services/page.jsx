@@ -66,7 +66,6 @@ const Services = () => {
               </h2>
               <p className="text-white/20">{service.description}</p>
               <div className="border-b border-white/20 w-full mt-auto"></div>{" "}
-              {/* Pushes border to bottom */}
             </div>
           ))}
         </motion.div>
