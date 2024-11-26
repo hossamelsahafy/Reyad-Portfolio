@@ -179,16 +179,12 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="frontend">
-                      Front-end Development
+                    <SelectItem value="One">
+                      Cypcut Laser Cutting System
                     </SelectItem>
-                    <SelectItem value="backend">
-                      Back-end Development
-                    </SelectItem>
-                    <SelectItem value="fullstack">
-                      Full Stack Development
-                    </SelectItem>
-                    <SelectItem value="deployment">Deployment</SelectItem>
+                    <SelectItem value="Two">CAD/CAM (Solidworks)</SelectItem>
+                    <SelectItem value="Three">PLC programming</SelectItem>
+                    <SelectItem value="Four">CNC simulator</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
