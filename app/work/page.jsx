@@ -28,7 +28,7 @@ const projects = [
     category: "Product Engineer",
     title: "Laser Fiber Product Engineer",
     description:
-      "As a Product Engineer specializing in fiber laser machinery, I focus on precision manufacturing and process optimization. My expertise includes designing solutions for efficient, high-quality laser cutting and engraving, catering to industries like automotive and electronics. I streamline workflows, reduce downtime, and align with modern manufacturing demands for cost-effective and sustainable practices.",
+      "As a Product Engineer specializing in fiber laser machinery, I focus on precision manufacturing and process optimization. My expertise includes designing solutions for efficient, high-quality laser cutting and engraving, catering to industries like automotive and electronics. I streamline workflows, reduce downtime, and align with modern manufacturing demands for cost-effective and sustainable practices",
     images: "/ReyadTany.jpg",
   },
 ];
