@@ -31,17 +31,11 @@ const projects = [
       "As a Product Engineer specializing in fiber laser machinery, I focus on precision manufacturing and process optimization. My expertise includes designing solutions for efficient, high-quality laser cutting and engraving, catering to industries like automotive and electronics. I streamline workflows, reduce downtime, and align with modern manufacturing demands for cost-effective and sustainable practices",
     images: "/ReyadTany.jpg",
   },
+
   {
     num: "03",
-    category: "Water Treatment Intern",
-    title: "Water and Wastewater Maintenance Trainee",
-    description:
-      "During my training at the Drinking Water and Sanitation Company in Damietta Governorate, I gained hands-on experience in detecting leaks and inspecting mechanical components of water stations. The program enhanced my understanding of water system maintenance, leak detection technologies, and the mechanical operations crucial for efficient water treatment and distribution.",
-    images: "/DamiettaWaterTraining.jpg",
-  },
-  {
-    num: "04",
-    category: "Product Engineer",
+    category:
+      "Supervising Engineer at the Deputy Governor of Damietta’s Office",
     title:
       "Supervising Engineer at the Deputy Governor of Damietta’s Office Jan 2025 – present",
     description:
@@ -77,6 +71,7 @@ const Work = () => {
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category}
               </h2>
+
               <p className="text-lg font-bold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 shadow-sm">
                 {project.description?.split(". ").map((sentence, index) => (
                   <span key={index} className="block mb-2">

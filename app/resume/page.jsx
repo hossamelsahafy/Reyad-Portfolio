@@ -76,6 +76,11 @@ const Trianing = {
       Description: "Hydro mechanics ",
       Duration: "2023",
     },
+    {
+      name: "Water Treatment",
+      Description: "Water and Wastewater Maintenance Trainee",
+      Duration: "2025",
+    },
   ],
 };
 
@@ -248,7 +253,7 @@ const Resume = () => {
                           <span>{oneInfo.name.charAt(0).toUpperCase()}</span>
                         )}
                       </div>
-                      <div className="text-white text-center xl:text-left">
+                      <div className="text-white text-center xl:text-left mt-auto">
                         <h4 className="text-2xl font-semibold capitalize">
                           {oneInfo.name}
                         </h4>
@@ -256,7 +261,7 @@ const Resume = () => {
                           {oneInfo.Description}
                         </p>
                         {oneInfo.Duration && (
-                          <p className="text-accent text-sm font-medium mt-2">
+                          <p className="text-accent text-sm font-medium mt-4">
                             Duration: {oneInfo.Duration}
                           </p>
                         )}
