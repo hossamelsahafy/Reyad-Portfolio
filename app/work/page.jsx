@@ -31,6 +31,14 @@ const projects = [
       "As a Product Engineer specializing in fiber laser machinery, I focus on precision manufacturing and process optimization. My expertise includes designing solutions for efficient, high-quality laser cutting and engraving, catering to industries like automotive and electronics. I streamline workflows, reduce downtime, and align with modern manufacturing demands for cost-effective and sustainable practices",
     images: "/ReyadTany.jpg",
   },
+  {
+    num: "03",
+    category: "Water Treatment Intern",
+    title: "Water and Wastewater Maintenance Trainee",
+    description:
+      "During my training at the Drinking Water and Sanitation Company in Damietta Governorate, I gained hands-on experience in detecting leaks and inspecting mechanical components of water stations. The program enhanced my understanding of water system maintenance, leak detection technologies, and the mechanical operations crucial for efficient water treatment and distribution.",
+    images: "/DamiettaWaterTraining.jpg",
+  },
 ];
 const Work = () => {
   const [project, setproject] = useState(projects[0] || {});
