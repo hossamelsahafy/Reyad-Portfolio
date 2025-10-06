@@ -39,6 +39,15 @@ const projects = [
       "During my training at the Drinking Water and Sanitation Company in Damietta Governorate, I gained hands-on experience in detecting leaks and inspecting mechanical components of water stations. The program enhanced my understanding of water system maintenance, leak detection technologies, and the mechanical operations crucial for efficient water treatment and distribution.",
     images: "/DamiettaWaterTraining.jpg",
   },
+  {
+    num: "04",
+    category: "Product Engineer",
+    title:
+      "Supervising Engineer at the Deputy Governor of Damietta’s Office Jan 2025 – present",
+    description:
+      "Responsible for supervising construction sites and ensuring work is executed according to standard specifications. Also oversee the Machinery and Equipment Department in local units across Damietta Governorate.",
+    images: "/Four.jpg",
+  },
 ];
 const Work = () => {
   const [project, setproject] = useState(projects[0] || {});
